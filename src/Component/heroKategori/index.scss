@@ -1,0 +1,14 @@
+.hero-kategori {
+  background: url(../../Assets/Images/hero-kategori.png);
+  height: 220px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  .title-kategori {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .desk-kategori {
+    font-size: 20px;
+  }
+}

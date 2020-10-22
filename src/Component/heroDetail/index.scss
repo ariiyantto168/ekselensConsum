@@ -1,0 +1,65 @@
+.hero-detail {
+  padding: 70px 0;
+  background: rgb(88, 114, 246);
+  background: linear-gradient(
+    171deg,
+    rgba(88, 114, 246, 1) 0%,
+    rgba(37, 46, 96, 1) 100%
+  );
+  .konten-hero-detail {
+    color: #ffffff;
+    h3 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 18px;
+      margin: 1.7rem 0;
+      font-weight: 300;
+    }
+    .rating-kelas {
+      margin-bottom: 1rem;
+      p {
+        display: inline;
+        margin-left: 10px;
+      }
+      h5 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+    .instruktur-profil-detail-hero {
+      h4 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+      }
+      .instruktur-profil-detail-hero-img {
+        object-fit: cover;
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+      }
+    }
+  }
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    .breadcrumb-item {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      a {
+        color: #ffffff;
+        font-weight: 300;
+      }
+      &::before {
+        color: #ffffff;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "kelas": [
+    {
+      "id": 1,
+      "judul": "Practice for Great UI Design",
+      "slug": "practice-for-great-ui",
+      "progress": 50,
+      "totalKuis": 5,
+      "totalVideo": 10,
+      "bab": [
+        {
+          "titleBab": "Pendahuluan",
+          "materi": [
+            {
+              "type": "video",
+              "slugMateriKelas": "materi-1",
+              "titleSubBab": "Pengenalan ReactJS",
+              "video": "/images/video/5.mp4"
+            },
+            {
+              "type": "video",
+              "slugMateriKelas": "materi-2",
+              "titleSubBab": "Pengenalan ReactJS",
+              "video": "/images/video/7.mp4"
+            },
+            {
+              "type": "video",
+              "slugMateriKelas": "materi-3",
+              "titleSubBab": "Pengenalan ReactJS",
+              "video": "/images/video/5.mp4"
+            }
+          ]
+        },
+        {
+          "titleBab": "Pengenalan Framework",
+          "materi": [
+            {
+              "type": "video",
+              "slugMateriKelas": "materi-4",
+              "titleSubBab": "Pengenalan ReactJS",
+              "video": "/images/video/7.mp4"
+            },
+            {
+              "type": "video",
+              "slugMateriKelas": "materi-5",
+              "titleSubBab": "Pengenalan ReactJS",
+              "video": "/images/video/5.mp4"
+            },
+            {
+              "type": "kuis",
+              "slugMateriKelas": "materi-6",
+              "titleSubBab": "Pengenalan ReactJS",
+              "kuis": [
+                {
+                  "id": 1,
+                  "question": "Apa yang dimaksud dengan bahasa pemrograman?",
+                  "answears": [
+                    "alat komunikasi",
+                    "penghubung",
+                    "css module",
+                    "node.js"
+                  ],
+                  "correct": "css module"
+                },
+                {
+                  "id": 2,
+                  "question": "Apa yang dimaksud dengan bahasa pemrograman?",
+                  "answears": [
+                    "alat komunikasi",
+                    "penghubung",
+                    "css module",
+                    "node.js"
+                  ],
+                  "correct": "css module"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

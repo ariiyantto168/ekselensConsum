@@ -1,0 +1,42 @@
+.footer {
+  background-color: #2f3c80;
+  padding: 2.5rem 0;
+  color: #ffffff;
+  .logo-footer {
+    img {
+      margin-bottom: 1.9rem;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .konten-footer {
+    color: #ffffff;
+    h4 {
+      font-size: 1.34rem;
+      font-weight: 700;
+      margin-bottom: 1.8rem;
+    }
+    ul {
+      list-style-type: none !important;
+      padding: 0;
+      button {
+        padding: 0;
+        border: 0;
+        color: #ffffff;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .copyright-footer {
+    color: #ffffff;
+    margin-top: 2.3rem;
+    p {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}

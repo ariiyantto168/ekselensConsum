@@ -1,0 +1,38 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+  margin: 0;
+}
+
+// ====================> Example section
+.section-example {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// ====================> Section
+.section {
+  color: #2f3c80;
+  margin-bottom: 4.3rem;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.header {
+  padding: 0 10vw;
+}

@@ -1,0 +1,19 @@
+{
+  "type": "kuis",
+  "slugMateriKelas": "materi-6",
+  "titleSubBab": "Pengenalan ReactJS",
+  "kuis": [
+    {
+      "id": 1,
+      "question": "Apa yang dimaksud dengan bahasa pemrograman?",
+      "answears": ["alat komunikasi", "penghubung", "css module", "node.js"],
+      "correct": "css module"
+    },
+    {
+      "id": 2,
+      "question": "Apa yang dimaksud dengan bahasa pemrograman?",
+      "answears": ["alat komunikasi", "penghubung", "css module", "node.js"],
+      "correct": "css module"
+    }
+  ]
+}

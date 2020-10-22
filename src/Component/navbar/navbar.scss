@@ -1,0 +1,136 @@
+.nav-collapse {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar-btn {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    .navbar-btn-item {
+      margin-right: 2rem;
+      // position: relative;
+      // padding: 10px 0;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      a {
+        margin: 0;
+      }
+    }
+    .item-btn-toogle {
+      // display: flex;
+      // align-items: center;
+      // flex-direction: column;
+
+      &:hover {
+        .list-kategori-nav {
+          display: block;
+        }
+      }
+      .list-kategori-nav {
+        display: none;
+        list-style-type: none;
+        margin-top: 1.8rem;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid #d3d3d3;
+        position: absolute;
+        background-color: #ffffff;
+        top: 52px;
+        // bottom: 0;
+        // margin-bottom: -50px;
+
+        z-index: 1;
+        .list-kategori-nav-item {
+          padding-bottom: 0.8rem;
+          &:last-child {
+            padding-bottom: 0;
+          }
+          // margin-bottom: 1rem;
+          .list-kategori-link {
+            color: #000000;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-search {
+    .search-nav {
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      padding: 0 0.5rem;
+      height: 28px;
+    }
+  }
+
+  .navbar-register {
+    .btn-login {
+      margin-right: 1rem;
+      border: 1px solid #ffffff;
+      padding: 4px 16px;
+      border-radius: 10px;
+    }
+
+    .btn-register {
+      background-color: #495dc9;
+      padding: 4px 16px;
+      border-radius: 10px;
+    }
+  }
+
+  a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    &:hover {
+      color: #dfdfdf;
+    }
+  }
+}
+
+.nav-collapse-materi-page {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 2vw;
+  .title-navbar {
+    align-self: center;
+    color: #ffffff;
+  }
+  .btn-modal-comment {
+    background-color: #495ab3;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 8px 1.4rem;
+    border-radius: 10px;
+    &:hover {
+      background-color: #576ace;
+    }
+  }
+}
+.modals-content {
+  .ant-modal-content {
+    .ant-modal-body {
+      display: flex;
+      flex-direction: column;
+      textarea {
+        resize: none;
+        padding: 0.8rem;
+        outline: none;
+      }
+    }
+  }
+}

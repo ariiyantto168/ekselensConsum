@@ -1,0 +1,411 @@
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+$primary: #2f3c80;
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f3c80;
+  font-size: 16px;
+}
+
+wrapperVid {
+  overflow: hidden;
+  video {
+    outline: none;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+// ====================> Example section
+.section-example {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// ====================> Section
+.section {
+  background-color: #ffffff;
+  color: #2f3c80;
+  margin-bottom: 4.3rem;
+}
+
+// About Page
+.about-konten {
+  margin-top: 1.5rem;
+  .title {
+    font-weight: 700;
+    margin-bottom: 1.65rem;
+  }
+  .konten {
+    margin-bottom: 3.532rem;
+    p {
+      font-size: 14px;
+      color: #5a5a5a;
+      line-height: 1.92rem;
+    }
+  }
+  .title-benefit-about {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 4rem;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .konten-benefit {
+    text-align: center;
+    h4 {
+      margin: 2rem 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #b9b9b9;
+    }
+  }
+}
+
+// ====> Login Style
+
+.section-login-register {
+  display: flex;
+  // height: 100vh;
+  background-color: #f0f1f4;
+  justify-content: center;
+  align-items: center;
+  color: #2f3c80;
+}
+
+.card-login {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 950px;
+  height: 510px;
+  margin: 5rem 0;
+  .row-login {
+    height: 100%;
+  }
+  .side-backdrop {
+    background: url(../Images/bakdrop-login.png);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+      width: 76px;
+      margin: 0 auto;
+    }
+    h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+  .login-konten {
+    padding: 30px 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .btn-login {
+      font-size: 20px;
+      color: #2f3c80;
+      font-weight: 300;
+      border-radius: 0;
+      &:hover {
+        font-weight: 700;
+        border-bottom: 1px solid #f4a81e;
+      }
+    }
+    .form-login {
+      margin-bottom: 1rem;
+      .form-group {
+        label {
+          font-size: 14px;
+          color: #4a4a4a;
+        }
+        input {
+          height: 30px;
+          &::placeholder {
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+      }
+      .form-check {
+        display: flex;
+        align-items: center;
+        .form-check-label {
+          font-size: 12px;
+          color: #b5b5b5;
+        }
+        .form-check-input {
+          color: #ff0000;
+        }
+      }
+    }
+    .form-register {
+      margin-bottom: 1rem;
+      .form-group {
+        margin-bottom: 5px;
+        label {
+          font-size: 14px;
+          color: #4a4a4a;
+        }
+        input {
+          height: 30px;
+          &::placeholder {
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+      }
+      .form-check {
+        display: flex;
+        align-items: center;
+        .form-check-label {
+          font-size: 12px;
+          color: #b5b5b5;
+        }
+        .form-check-input {
+          color: #ff0000;
+        }
+      }
+    }
+
+    .btn-login-submit {
+      width: 100%;
+      border-radius: 20px;
+      color: #ffffff;
+      background-color: #f4a81e;
+    }
+    .btn-login-facebook,
+    .btn-login-google {
+      border-radius: 20px;
+      width: 100%;
+      color: #ffffff;
+    }
+
+    .btn-login-facebook {
+      background-color: #4267b2;
+    }
+
+    .btn-login-google {
+      background-color: #eb4132;
+    }
+  }
+}
+
+// =======> Kelas saya
+
+.navbar-kelas-saya {
+  background-color: rgba(80, 108, 255, 0.08);
+  height: 100px;
+  margin-bottom: 2rem;
+  .kelas-saya-menu {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    .btn-navbar-kelas {
+      margin-right: 3rem;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #2f3c80;
+      padding-bottom: 14px;
+      &.btn-navbar-kelas-active {
+        position: relative;
+        font-weight: 700;
+        // border-bottom: 4px solid #2f3c80;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 5px;
+          background-color: #2f3c80;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+// ========> Materi Kelas Page
+.materi-kelas {
+  background-color: #e5e5e5;
+  height: 100vh;
+  .materi-kelas-konten {
+    display: flex;
+    // margin-top: 2rem;
+    .konten-materi-kelas {
+      width: 100%;
+
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        wrapper {
+          background-color: #ffffff;
+          display: block;
+          width: 100%;
+          height: 100%;
+          video {
+            outline: none;
+          }
+        }
+        .controller-video {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          .playPauseButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: calc(100% - 60px);
+            .btn-playPause {
+              width: 140px;
+              height: 140px;
+              background-color: #dddddd;
+              border-radius: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              svg {
+                font-size: 40px;
+                color: $primary;
+              }
+            }
+          }
+          .control-bar {
+            position: absolute;
+            bottom: 0;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 1rem 0.8rem;
+            background: rgb(255, 255, 255);
+            background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0) 18%,
+              rgba(47, 60, 128, 1) 100%
+            );
+            .progress-video {
+              width: 100%;
+              margin-bottom: 1rem;
+            }
+            .control-bar-video {
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              align-items: center;
+              .right-control {
+                color: #ffffff;
+                display: flex;
+                align-items: center;
+                height: 2rem;
+                .btn-control-fullscreen {
+                  display: flex;
+                  align-items: center;
+                }
+              }
+              .left-control {
+                display: flex;
+                align-items: center;
+                height: 2rem;
+                color: #ffffff;
+                .btn-control-play {
+                  // height: 100%;
+                  margin-right: 1.2rem;
+                  display: flex;
+                  align-items: center;
+                }
+                p {
+                  margin-right: 1rem;
+                  margin-bottom: 0;
+                }
+                .btn-control-volume {
+                  display: flex;
+                  align-items: center;
+                }
+                .input-volume {
+                  margin-left: 0.9rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

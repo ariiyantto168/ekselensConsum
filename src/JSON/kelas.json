@@ -1,0 +1,254 @@
+{
+  "kelas": [
+    {
+      "id": 1,
+      "slug": "sukses-bisnis-online-shop",
+      "judul": "Sukses Bisnis Online Shop di Instagram",
+      "imgCover": "../images/cover card/cover1.jpg",
+      "instruktur": {
+        "nama": "Micheal Sugiharto",
+        "role": "Online Bussines Expert",
+        "photo": "../images/instruktur/user1.jpg"
+      },
+      "rate": 4.2,
+      "totalMateri": 3,
+      "totalJam": 10,
+      "harga": "500.000",
+      "diskon": "250.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": true,
+      "kelasTerbaru": false,
+      "careerReady": true,
+      "kategori": "manajemen-wirausa"
+    },
+    {
+      "id": 2,
+      "slug": "mudah-pahami-konten-marketing",
+      "judul": "Mudah Pahami Konten Marketing untuk Bisnis",
+      "imgCover": "../images/cover card/cover3.jpg",
+      "instruktur": {
+        "nama": "Astri Soeparyono",
+        "role": "Managin Editor Gojek",
+        "photo": "../images/instruktur/user2.jpg"
+      },
+      "rate": 5.0,
+      "totalMateri": 10,
+      "totalJam": 3,
+      "harga": "500.000",
+      "diskon": "400.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": false,
+      "kelasTerbaru": true,
+      "careerReady": false,
+      "kategori": "manajemen-wirausa"
+    },
+    {
+      "id": 3,
+      "slug": "mastering-mobile-programming-android",
+      "judul": "Mastering Mobile Programming Android",
+      "imgCover": "../images/cover card/cover2.jpg",
+      "instruktur": {
+        "nama": "Budi Oktaviyan",
+        "role": "Engineering Manager of Bhineka.com",
+        "photo": "../images/instruktur/user3.jpg"
+      },
+      "rate": 4.8,
+      "totalMateri": 3,
+      "totalJam": 10,
+      "harga": "1.000.000",
+      "diskon": "350.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": true,
+      "kelasTerbaru": false,
+      "careerReady": false,
+      "kategori": "teknologi"
+    },
+    {
+      "id": 4,
+      "slug": "siap-kerja-di-kedai-kopi",
+      "judul": "Siap Kerja di Kedai Kopi: Belajar Bikin Kopi Kekinia ala Barita",
+      "imgCover": "../images/cover card/cover4.jpg",
+      "instruktur": {
+        "nama": "Djoko Pamungkas",
+        "role": "Head Barista Cliq & Kitchen",
+        "photo": "../images/instruktur/user4.jpg"
+      },
+      "rate": 4.1,
+      "totalMateri": 8,
+      "totalJam": 6,
+      "harga": "800.000",
+      "diskon": "280.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": false,
+      "kelasTerbaru": true,
+      "careerReady": true,
+      "kategori": "teknologi"
+    },
+    {
+      "id": 5,
+      "slug": "pelajari-dasar-bahasa-inggris",
+      "judul": "Pelajari Dasar Bahasa Inggris untuk Pemula",
+      "imgCover": "../images/cover card/cover5.jpg",
+      "instruktur": {
+        "nama": "Ali Fikri",
+        "role": "TOEFL Teacher",
+        "photo": "../images/instruktur/user5.jpg"
+      },
+      "rate": 4.6,
+      "totalMateri": 8,
+      "totalJam": 4,
+      "harga": "750.000",
+      "diskon": "250.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": true,
+      "kelasTerbaru": false,
+      "careerReady": true,
+      "kategori": "teknik"
+    },
+    {
+      "id": 6,
+      "slug": "belajar-desain-grafis",
+      "judul": "Belajar Desain Grafis dengan Mudah Menggunakan Adobe Photosop",
+      "imgCover": "../images/cover card/cover6.jpg",
+      "instruktur": {
+        "nama": "Bimo Saktio Mukti",
+        "role": "Profesional Creative Designer",
+        "photo": "../images/instruktur/user6.jpg"
+      },
+      "rate": 3.5,
+      "totalMateri": 9,
+      "totalJam": 1,
+      "harga": "650.000",
+      "diskon": "350.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": false,
+      "kelasTerbaru": true,
+      "careerReady": false,
+      "kategori": "teknik"
+    },
+    {
+      "id": 7,
+      "slug": "ielts-lesson-for-getting-higher-score",
+      "judul": "IELTS Lesson for Getting Higher Score",
+      "imgCover": "../images/cover card/cover7.jpg",
+      "instruktur": {
+        "nama": "Alexandria Tjia",
+        "role": "English Instructor",
+        "photo": "../images/instruktur/user7.jpg"
+      },
+      "rate": 4.5,
+      "totalMateri": 15,
+      "totalJam": 10,
+      "harga": "1.000.000",
+      "diskon": "850.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": true,
+      "kelasTerbaru": false,
+      "careerReady": false,
+      "kategori": "pengembangan-diri"
+    },
+    {
+      "id": 8,
+      "slug": "cara-membuat-website",
+      "judul": "SEO 101: Cara Membuat Website Eksis di Halaman Depan Google",
+      "imgCover": "../images/cover card/cover8.jpg",
+      "instruktur": {
+        "nama": "Imam Akbar",
+        "role": "Product Manager Traveloka",
+        "photo": "../images/instruktur/user8.jpg"
+      },
+      "rate": 4.9,
+      "totalMateri": 11,
+      "totalJam": 5,
+      "harga": "700.000",
+      "diskon": "450.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": false,
+      "kelasTerbaru": true,
+      "careerReady": true,
+      "kategori": "pengembangan-diri"
+    },
+    {
+      "id": 9,
+      "slug": "membuat-tipografi",
+      "judul": "Membuat Tipografi dalam Adobe Illustrator",
+      "imgCover": "../images/cover card/cover9.jpg",
+      "instruktur": {
+        "nama": "Edi Sarwoon",
+        "role": "Adobe Illustrator Expert",
+        "photo": "../images/instruktur/user9.jpg"
+      },
+      "rate": 3.2,
+      "totalMateri": 3,
+      "totalJam": 10,
+      "harga": "900.000",
+      "diskon": "40.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": true,
+      "kelasTerbaru": false,
+      "careerReady": true,
+      "kategori": "sales-marketing"
+    },
+    {
+      "id": 10,
+      "slug": "belajar-ngaji",
+      "judul": "Belajar Mengaji agar Fasih Baca Al Quran",
+      "imgCover": "../images/cover card/cover10.jpg",
+      "instruktur": {
+        "nama": "Rio Sastra Hardiansyah",
+        "role": "Pengajar Al Quran",
+        "photo": "../images/instruktur/user10.jpg"
+      },
+      "rate": 5.0,
+      "totalMateri": 3,
+      "totalJam": 10,
+      "harga": "500.000",
+      "diskon": "250.000",
+      "benefit": [
+        "Dasar Instagram",
+        "Target market pasar",
+        "Cara memesarkan produk"
+      ],
+      "kelasPopuler": false,
+      "kelasTerbaru": true,
+      "careerReady": false,
+      "kategori": "enrichment"
+    }
+  ]
+}

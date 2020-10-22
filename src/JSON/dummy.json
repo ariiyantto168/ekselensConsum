@@ -1,0 +1,34 @@
+{
+  "materi": [
+    {
+      "id": 1,
+      "name": "pendahuluan",
+      "sub": [
+        {
+          "nameSub": "pengenalan React JS"
+        },
+        {
+          "nameSub": "pengenalan React JS"
+        },
+        {
+          "nameSub": "pengenalan React JS"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dasar K3",
+      "sub": [
+        {
+          "nameSub": "pengenalan React JS"
+        },
+        {
+          "nameSub": "pengenalan React JS"
+        },
+        {
+          "nameSub": "pengenalan React JS"
+        }
+      ]
+    }
+  ]
+}

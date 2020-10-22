@@ -1,0 +1,57 @@
+{
+  "kategori": [
+    {
+      "id": "manajemen-wirausa",
+      "nama": "Manajemen dan Wirausaha",
+      "icon": "../images/icon category/kategori-icon1.svg"
+    },
+    {
+      "id": "teknologi",
+      "nama": "Teknologi",
+      "icon": "./images/icon category/kategori-icon2.svg"
+    },
+    {
+      "id": "teknik",
+      "nama": "Teknik",
+      "icon": "./images/icon category/kategori-icon3.svg"
+    },
+    {
+      "id": "pengembangan-diri",
+      "nama": "Pengembangan Diri",
+      "icon": "./images/icon category/kategori-icon4.svg"
+    },
+    {
+      "id": "sales-marketing",
+      "nama": "Sales dan Marketing",
+      "icon": "./images/icon category/kategori-icon5.svg"
+    },
+    {
+      "id": "enrichment",
+      "nama": "Enrichment",
+      "icon": "/images/icon category/kategori-icon6.svg"
+    }
+  ],
+  "testimoni": [
+    {
+      "id": "1",
+      "nama": "Dimas Dermawan",
+      "role": "Mahasiswa",
+      "testimoni": "Materi yang disajikan sangat interaktif dan mudah untuk dipahami",
+      "img": "./images/testimoni/user-testimoni.png"
+    },
+    {
+      "id": "2",
+      "nama": "Dimas Dermawan",
+      "role": "Mahasiswa",
+      "testimoni": "Materi yang disajikan sangat interaktif dan mudah untuk dipahami",
+      "img": "./images/testimoni/user-testimoni.png"
+    },
+    {
+      "id": "3",
+      "nama": "Dimas Dermawan",
+      "role": "Mahasiswa",
+      "testimoni": "Materi yang disajikan sangat interaktif dan mudah untuk dipahami",
+      "img": "./images/testimoni/user-testimoni.png"
+    }
+  ]
+}
